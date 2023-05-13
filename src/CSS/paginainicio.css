@@ -6,15 +6,13 @@ header{
 margin: 10px 0px 10px 0px;
 }
 .titulo_encabezado{
-    font-size: 25px;
   
-    
     text-decoration:solid;
     Line-height: 50px;
     gap:20px ;
     border-color: black;
    color: black;
-   font-size: 85px;
+   font-size: 105px;
     text-align: center;
     font-family: 'Dancing Script', cursive; /*letra pegada*/
     
@@ -158,3 +156,23 @@ width: 140px;
     .btns_encabezados{
         display: inline;
     }
+
+    @media only screen and (max-width:990px){
+        .texto_modal_dir{
+        flex-direction: column;
+        }  
+        .titulo_encabezado{
+            font-size: 65px;
+        }
+        }
+
+        @media only screen and (max-width:750px){
+           .btns_encabezados
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .titulo_encabezado{
+                font-size: 55px;
+            }
+            }

@@ -246,6 +246,7 @@ setEligiofecha(false)
               <img className="img_pedido"   src={img_ent_dom}         alt="Comida empacada"/>
             </div>
           </div>
+          
           <p/><button className="btn_pedido_modal"  onClick={() => {
             if(localStorage.getItem('ubicacion') ) {
            navigate('../comidas')

@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom"; //para navegar con un boton en lugar de hacer link to
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import React from 'react';
 //CSS
@@ -12,7 +11,7 @@ import Button from "./Button";
 import Pedido from "./Pedido"
 import IniciarSesion from "./RegIniSesModal"
 import RegistrarseI from "./RegIniSesModal"
-import { propTypes } from "react-bootstrap/esm/Image";
+
 //PARA IR A PAGINAS CON ENRUTADOR
   //<div className='iniciaroregistrarse'>Click <Link to='../Datos'>aqui </Link>para Registrarte o iniciar Sesion </div>
   let tabinicioregistrarse;  
