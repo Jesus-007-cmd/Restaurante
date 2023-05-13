@@ -200,6 +200,7 @@ setEligiofecha(false)
   size="lg"
   aria-labelledby="contained-modal-title-vcenter"
   centered
+  className='texto_modal'
   /*className='modal-backdrop'*/
    
     >
@@ -208,6 +209,7 @@ setEligiofecha(false)
       <Tabs
       defaultActiveKey="entregadom"
       id="uncontrolled-tab-example"
+      className='texto_modal'
     >
       {/********************TAB ENTREGA A DOMICILIO TAB********************** */}
         <Tab eventKey="entregadom" title="ENTREGA A DOMICILIO " className='texto_modal' >
@@ -276,7 +278,7 @@ setEligiofecha(false)
                 
                 }}>HACER PEDIDO</button> 
             </div>
-          </Tab>
+          </Tab >
             {/********************RESERVAR MESA********************** */}
             <Tab eventKey="profile" title="RESERVAR MESA"   className='texto_modal'>
           SELECCIONA HORA Y MESA PARA RESERVAR:

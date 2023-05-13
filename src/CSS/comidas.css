@@ -89,19 +89,98 @@ align-content: space-between;
 }
 
 
-    @media only screen and (max-width:1250px){
-        .seccion_platillos1{
-        grid-template-columns: 1fr 1fr;
-        }   
-    
-    }
-  
-     @media only screen and (max-width:880px){
-        .seccion_platillos1{
-            grid-template-columns: repeat(1,1fr);
-        }
-      
-    }
+   
   .espacio{
     padding: 20px;
   }
+
+  @media only screen and (max-width:1250px){
+    .seccion_platillos1{
+    grid-template-columns: 1fr 1fr;
+    }   
+    .tit-platillos{
+
+        font-size: 60px;}
+
+}
+
+ @media only screen and (max-width:880px){
+    .seccion_platillos1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .tit-platillos{
+        font-size: 60px;}
+
+    .img_tit{
+            
+            width: 80%;
+        }
+        .jum_platillo
+        {
+            background-image: radial-gradient(white, rgb(255, 244, 245));
+           /* border-radius: 5px;*/
+           width: 80%;}
+           .img_plat{
+            width: 99%;
+            
+            padding-top: 10px;
+           }   
+  
+}
+@media only screen and (max-width:680px){
+    .seccion_platillos1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .tit-platillos{
+
+        font-size: 40px;}
+        .jum_platillo
+        {
+            background-image: radial-gradient(white, rgb(255, 244, 245));
+           /* border-radius: 5px;*/
+           width: 80%;}
+           .img_plat{
+            width: 99%;
+            
+            padding-top: 10px;
+           }   
+
+}
+
+@media only screen and (max-width:460px){
+    .seccion_platillos1{
+        grid-template-columns: 1fr
+        
+    }
+
+    .jum_platillo
+{
+    background-image: radial-gradient(white, rgb(255, 244, 245));
+   /* border-radius: 5px;*/
+   width: 350px;}
+   .img_plat{
+    width: 327px;
+    
+    padding-top: 10px;
+   }   
+}
+
+@media only screen and (max-width:426px){
+    .seccion_platillos1{
+        grid-template-columns: 1fr
+        
+    }
+
+    .jum_platillo
+{
+    background-image: radial-gradient(white, rgb(255, 244, 245));
+   /* border-radius: 5px;*/
+   width: 320px;}
+   .img_plat{
+    width: 307px;
+    
+    padding-top: 10px;
+   }   
+}
+
+

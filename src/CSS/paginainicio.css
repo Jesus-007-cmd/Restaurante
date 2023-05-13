@@ -158,8 +158,12 @@ width: 140px;
     }
 
     @media only screen and (max-width:990px){
+        .texto_modal {
+            font-size: 24px !important;
+        }
         .texto_modal_dir{
         flex-direction: column;
+        font-size: 24px !important;
         }  
         .titulo_encabezado{
             font-size: 65px;
@@ -167,6 +171,13 @@ width: 140px;
         }
 
         @media only screen and (max-width:750px){
+            .texto_modal {
+                font-size: 15px !important;
+            }
+            .texto_modal_dir{
+                flex-direction: column;
+                font-size: 14px !important;
+                } 
            .btns_encabezados
             {
                 display: flex;
@@ -175,4 +186,5 @@ width: 140px;
             .titulo_encabezado{
                 font-size: 55px;
             }
+            
             }
