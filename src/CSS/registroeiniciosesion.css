@@ -1,0 +1,73 @@
+.texto_modal_ini_regis{
+    font-size: 20px;
+    color: black;
+    font-style:oblique;
+    font-family: 'Oswald', sans-serif !important;
+}
+.orden_registro{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.orden_registro2{
+    display: flex;
+  
+    padding: 15px;
+  
+}
+
+
+.borderform{
+    
+        background-image: radial-gradient(white, rgb(255, 244, 245));
+       /* border-radius: 5px;*/
+    align-items: center;
+    
+        border-radius: 1%;
+        margin: 10px 0px 10px 0px; /*top, right, bottom and left */
+        display:block;
+        position:relative;
+        top: -3px; /* Desfasamos la imagen hacia arriba */
+        left:-3px; /*Desfasamos la imagen hacia la izquierda */
+        padding:5px;
+        background:#FFFFFF; /*Definimos un color de fondo */
+        border: 3px solid;
+
+        border-color: #CCCCCC;
+    
+    
+}
+.textborder0{
+    border-color: cadetblue !important;
+    width:60%!important;
+    height: 34px !important;
+}
+
+.textborder{
+    border-color: cadetblue !important;
+    width:300px!important;
+    height: 34px !important;
+}
+.textborder2{
+    width:100px!important;
+}
+
+@media only screen and (max-width:990px){
+.orden_registro{
+    display: flex;
+    flex-direction: column;
+}
+
+.textborder{
+    border-color: cadetblue !important;
+    width:100%!important;
+    height: 30px !important;
+}
+
+.textborder0{
+    border-color: cadetblue !important;
+    width:100%!important;
+    height: 30px !important; 
+}
+}
+

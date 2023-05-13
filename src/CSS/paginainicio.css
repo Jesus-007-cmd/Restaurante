@@ -1,0 +1,160 @@
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+     /* arriba | derecha | abajo | izquierda */
+margin: 10px 0px 10px 0px;
+}
+.titulo_encabezado{
+    font-size: 25px;
+  
+    
+    text-decoration:solid;
+    Line-height: 50px;
+    gap:20px ;
+    border-color: black;
+   color: black;
+   font-size: 85px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; /*letra pegada*/
+    
+
+}
+.header-img{
+   
+height: 100px;
+width: 140px;
+}
+.background-img{
+    border-width: 2px;
+    border-style: solid;
+      border-color: #433558;
+    max-width: 100%;
+    max-height: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.pestanas
+{
+ 
+    
+    font-size: 15px;
+    text-shadow: -2px -2px 3px black, 2px 2px 3px black,2px -2px 3px black, 2px 2px 3px black, -2px 2px 2px black;
+    background-image: radial-gradient( white,gray);
+    text-decoration:solid;
+    padding: 20px;
+    gap: 20px;
+    gap:20px ;
+    width: 400px;
+    border-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+    text-align: center;  
+}
+.modal-backdrop.show {
+    opacity: 10 !important; /* para que no se ponga opaco el modal */
+    background-color: unset !important; /* Para evitar que se obscuresca el dondo del modal*/
+    pointer-events: none;/* para poder seguir usando el fondo del modal*/
+    overflow:scroll;
+}
+/*.tit_pestañas_modal , .nav-tabs .nav-item.show .nav-link, .nav-tabs*/
+ .nav-link.active {
+    
+        color: #e31f2e !important;
+        font-size: 34px !important;
+       font-style: normal  !important;
+       font-family: 'Oswald', sans-serif !important;
+    }
+    .nav-link
+    {
+        color: gray !important;
+        font-size: 30px !important;
+       font-style: normal  !important;
+       font-family: 'Oswald', sans-serif !important;
+       width: 200px;
+       line-height: 35px;
+    }
+    .tit_pestañas_modal {
+        width: 50px;
+
+    }
+    .texto_modal {
+        font-size: 34px !important;
+        font-style: normal  !important;
+       font-family: 'Oswald', sans-serif !important;
+       font-size: 34px !important;
+       text-align: center;
+
+    }
+    .texto_modal_dir{
+        display: flex;
+        align-items: center;
+        font-style: bold  !important;
+       font-family: 'Oswald', sans-serif !important;
+       font-size: 22px !important;  
+       color: black !important;
+    }
+/*para la imagen del modal*/
+    .img_pedido {
+        width: 250px;
+        height: 250px;
+    }
+    .btn_pedido_modal{
+        
+        background-color:#e31f2e  !important;
+        color: white !important;
+        border-color: red !important;
+        font-size: 25 px !important;
+        align-items: center !important;
+        font-family: 'Oswald', sans-serif !important;
+       
+    }
+    .btn_pedido_modal:hover{
+        background-color:#990b16 !important ;
+        color: white !important;
+        border-color: red !important;
+        scale: 1.06 !important;
+        cursor: pointer !important;
+    }
+    .btn_pedido_modal:active {
+        background-color:#990b16 !important;
+        
+        border-color: red !important;
+        box-shadow: 0 5px #666 !important;
+        transform: translateY(4px) !important;
+        outline: 2px solid black !important;
+        
+      }
+      .btn_pedido_modal:focus{
+        outline: 2px solid black !important;
+        border-color: red !important;
+        box-shadow: 0 0 15px 0 black !important;
+      }
+      .ubicacion{
+        width: 100%;
+        
+      }
+      .link_edit{
+        
+        color: white !important;
+        border-color: red !important;
+        font-size: 20px !important;
+        align-items: center !important;
+        font-family: 'Oswald', sans-serif !important;
+        font-style: normal !important;
+       
+    }
+    .iniciaroregistrarse {
+        
+        color:black !important;
+        
+        font-size: 20px !important;
+        align-items: center !important;
+        font-family: 'Oswald', sans-serif !important;
+        font-style: normal !important;
+    }
+    .btns_encabezados{
+        display: inline;
+    }
